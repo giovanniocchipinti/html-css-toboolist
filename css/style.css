@@ -1,4 +1,6 @@
-/* Reset */
+/***** 
+ Reset
+*****/
 
 *{
     margin: 0;
@@ -6,12 +8,16 @@
     padding: 0; 
     font-family: "Poppins", system-ui;
 }
-/* Default */
+/*****
+ Default
+*****/
 body{
     background-color: rgb(245, 247, 248);
 }
 
-/* Common utility */
+/*****
+ Common utility
+*****/
 
 .container{
     padding: 10px 50px;
@@ -41,7 +47,11 @@ body{
 }
 
 .task{
-    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.task-row{
+    line-height: 2.5;
 }
 
 .normal-text{
@@ -57,7 +67,42 @@ body{
     color: white;
 }
 
-/* Intestazione della pagina */
+/* 
+ Colorri delle tasks
+*/
+
+.blue-task{
+    background-color: #08A9ED;
+}
+
+.purple-task{
+    background-color: #AB5CE6;
+
+}
+
+.darkgreen-task{
+    background-color: #2CC6AB;
+    
+}
+
+.orange-task{
+    background-color: #FF9B00;
+    
+}
+
+.fucsia-task{
+    background-color: #EC4A9D;
+    
+}
+
+.lightgreen-task{
+    background-color: #A2D115;
+    
+}
+
+/*
+Intestazione della pagina 
+*/
 
 .header-container{
     height: 70px;
@@ -67,7 +112,9 @@ body{
     margin-bottom: 40px;
 }
 
-/* Corpo della pagina */
+/* 
+Corpo della pagina
+*/
 
 main .buttons-section{
     height: 50px;
@@ -77,7 +124,10 @@ main .buttons-section{
     background-color: #14AAF5;
 }
 
-/* To do List section */
+/* 
+To do List section
+*/
+
 
 h3{
     font-weight: 500;
@@ -87,9 +137,6 @@ main .pt-pl{
     padding: 20px 50px;
 }
 
-.blue-task{
-    background-color: #08A9ED;
-}
 
 
 
