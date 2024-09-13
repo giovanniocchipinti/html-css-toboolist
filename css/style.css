@@ -1,17 +1,52 @@
+/* Reset */
+
 *{
     margin: 0;
     box-sizing: border-box;
-    padding: 0;
+    padding: 0; 
+    font-family: "Poppins", system-ui;
 }
-
+/* Default */
 body{
     background-color: rgb(245, 247, 248);
 }
 
+/* Common utility */
+
 .container{
+    padding: 10px 50px;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;   
+}   
+
+
+/* Intestazione della pagina */
+
+.header-container{
     height: 70px;
     background-color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
     padding-left: 20px;
+    padding-top: 10px; 
+    margin-bottom: 40px;
 }
+
+/* Corpo della pagina */
+
+main .buttons-section{
+    height: 50px;
+}
+
+main .container .buttons{
+    display: inline-block;
+    border: 1px solid #C4CBD0;
+    border-radius: 10%;
+    font-size: 12px;
+    padding: 5px 10px;
+}    
+
+#add-task{
+    background-color: #14AAF5;
+}
+
